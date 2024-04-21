@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-file = pickle.load(open("C:\\Users\\Rotimi\\Downloads\\rfc.pkl",'rb'))
+file = pickle.load(open("rfc.pkl",'rb'))
 
 st.title('Bank Customers')
 st.sidebar.header('Interviewee\'s Data')
